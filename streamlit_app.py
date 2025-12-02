@@ -334,14 +334,18 @@ def main():
         border-radius: 0.5rem;
         margin-bottom: 1rem;
         border-left: 4px solid;
+        color: #000000;
     }
     .user-message {
-        background-color: #e3f2fd;
-        border-left-color: #2196f3;
+        background-color: #cce5ff;
+        border-left-color: #0066cc;
     }
     .agent-message {
-        background-color: #f1f8e9;
-        border-left-color: #8bc34a;
+        background-color: #d4edda;
+        border-left-color: #28a745;
+    }
+    .chat-message strong {
+        color: #000000;
     }
     .metric-card {
         background-color: #f8f9fa;
